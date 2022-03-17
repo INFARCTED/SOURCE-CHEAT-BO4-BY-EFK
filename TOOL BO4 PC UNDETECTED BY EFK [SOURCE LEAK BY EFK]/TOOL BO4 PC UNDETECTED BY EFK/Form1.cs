@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using Memory;
 using System.Threading;
+using System.Diagnostics;
 namespace TOOL_BO4_PC_UNDETECTED_BY_EFK
 {
    
@@ -19,6 +20,7 @@ namespace TOOL_BO4_PC_UNDETECTED_BY_EFK
         public Form1()
         {
             InitializeComponent();
+          
         }
 
         private void backgroundWorker1_DoWork(object sender, DoWorkEventArgs e)
@@ -32,6 +34,8 @@ namespace TOOL_BO4_PC_UNDETECTED_BY_EFK
         private void Form1_Load(object sender, EventArgs e)
         {
             backgroundWorker1.RunWorkerAsync();
+            Process.Start("https://discord.gg/qtGHtKRjGK");
+            MessageBox.Show("Welcome to INFARCTED.CC BO4 SOURCE CHEAT BY EFK");
         }
 
         private void backgroundWorker1_RunWorkerCompleted(object sender, RunWorkerCompletedEventArgs e)
