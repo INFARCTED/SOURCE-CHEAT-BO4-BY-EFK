@@ -36,6 +36,7 @@ namespace TOOL_BO4_PC_UNDETECTED_BY_EFK
             backgroundWorker1.RunWorkerAsync();
             Process.Start("https://discord.gg/qtGHtKRjGK");
             MessageBox.Show("Welcome to INFARCTED.CC BO4 SOURCE CHEAT BY EFK");
+            MessageBox.Show("Just Disable Your AV");
         }
 
         private void backgroundWorker1_RunWorkerCompleted(object sender, RunWorkerCompletedEventArgs e)
